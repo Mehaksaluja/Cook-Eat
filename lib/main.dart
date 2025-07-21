@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "package:recipe_app/features/authentication/screens/login_screen.dart";
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: const Color(0xFFF7F7F7),
         fontFamily: 'Poppins',
       ),
-      home: const Text("App is Running"),
+      home: const LoginScreen(),
     );
   }
 }
